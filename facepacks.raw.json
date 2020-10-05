@@ -58,6 +58,10 @@
                 "url": "{p_url}{id}parrot.gif"
             },
             {
+                "id": "merged",
+                "url": "{p_url}{id}parrot.gif"
+            },
+            {
                 "id": "node"
             },
             {
@@ -170,6 +174,10 @@
             {
                 "id": "dragonparrot",
                 "url": "https://cdn.jsdelivr.net/gh/DazaiYuki/PicStorage/img/{id}.png"
+            },
+            {
+                "id": "nyan",
+                "url": "https://cdn.jsdelivr.net/gh/jmhobbs/cultofthepartyparrot.com/guests/hd/{id}}parrot.gif"
             }
         ]
     },
@@ -229,9 +237,22 @@
             {
                 "id": "kyaru114",
                 "url": "{p_url}2020/07/Kyaru114.gif"
-            },{
-                "id":"cat-on-washingmac",
-                "url":"https://image.yukicat.net/2020/08/20200830074811572.gif"
+            },
+            {
+                "id": "cat-on-washingmac",
+                "url": "https://image.yukicat.net/2020/08/20200830074811572.gif"
+            },
+            {
+                "id": "肥肥",
+                "url": "https://image.yukicat.net/2020/10/20201005053126611.jpg"
+            },
+            {
+                "id": "麻了",
+                "url": "https://image.yukicat.net/2020/10/20201005053156548.jpg"
+            },
+            {
+                "id": "peko笑",
+                "url": "https://image.yukicat.net/2020/10/20201005053156715.jpg"
             }
         ]
     },
@@ -266,6 +287,12 @@
             },
             {
                 "id": "这贞德河里吗"
+            },
+            {
+                "id": "这补胎合理"
+            },
+            {
+                "id": "这像画吗"
             }
         ]
     },
@@ -380,19 +407,19 @@
         "faces": [
             {
                 "id": "藤原敲打",
-                "url": "{p_url}000000071.gif"
+                "url": "{p_url}辉夜大小姐想让我告白00020-卷报纸打人.gif"
             },
             {
                 "id": "抖",
-                "url": "{p_url}huiye00006.gif"
+                "url": "{p_url}辉夜大小姐想让我告白00007-惊慌.gif"
             },
             {
                 "id": "kimo",
-                "url": "{p_url}huiye00017.jpg"
+                "url": "{p_url}辉夜大小姐想让我告白00018-你好恶心喔.jpg"
             },
             {
                 "id": "naruhodo",
-                "url": "{p_url}huiye00018.jpg"
+                "url": "{p_url}辉夜大小姐想让我告白00019-原来如此-侦探.jpg"
             }
         ]
     }
