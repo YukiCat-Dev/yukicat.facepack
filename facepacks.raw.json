@@ -3,9 +3,9 @@
         "id": "parrots",
         "name": "鹦鹉派对",
         "p_url": "https://cdn.jsdelivr.net/gh/jmhobbs/cultofthepartyparrot.com/parrots/",
-        "p":"parrot",
+        "p": "parrot",
         "default": "{p_url}hd/{id}{p}.gif",
-        "nohd":"{p_url}{id}{p}.gif",
+        "nohd": "{p_url}{id}{p}.gif",
         "faces": [
             "60fps",
             "aussie",
@@ -113,6 +113,9 @@
             {
                 "id": "jumping",
                 "url": "{p_url}hd/{id}{p}jr.gif"
+            },"imposter",{
+                "id": "unicorn",
+                "url": "{nohd}"
             }
         ]
     },
@@ -120,6 +123,7 @@
         "id": "yukicat",
         "name": "站上表情包",
         "p_url": "https://www.yukicat.net/wp-content/uploads/",
+        "img":"https://image.yukicat.net/20",
         "faces": [
             {
                 "id": "e_wu",
@@ -159,7 +163,7 @@
             },
             {
                 "id": "wtm惊讶",
-                "url": "https://image.yukicat.net/2020/08/20200830071200300.gif"
+                "url": "{img}20/08/20200830071200300.gif"
             },
             {
                 "id": "角羊笑",
@@ -175,25 +179,59 @@
             },
             {
                 "id": "cat-on-washingmac",
-                "url": "https://image.yukicat.net/2020/08/20200830074811572.gif"
+                "url": "{img}20/08/20200830074811572.gif"
             },
             {
                 "id": "肥肥",
-                "url": "https://image.yukicat.net/2020/10/20201005053126611.jpg"
+                "url": "{img}20/10/20201005053126611.jpg"
             },
             {
                 "id": "麻了",
-                "url": "https://image.yukicat.net/2020/10/20201005053156548.jpg"
+                "url": "{img}20/10/20201005053156548.jpg"
             },
             {
                 "id": "peko笑",
-                "url": "https://image.yukicat.net/2020/10/20201005053156715.jpg"
+                "url": "{img}20/10/20201005053156715.jpg"
             },
             {
                 "id": "catshake",
-                "url": "https://image.yukicat.net/2020/11/20201115065025288.gif"
-            },{
-                "id":"派蒙扰动","url":"https://image.yukicat.net/2020/11/20201123131124554.gif"
+                "url": "{img}20/11/20201115065025288.gif"
+            },
+            {
+                "id": "派蒙扰动",
+                "url": "{img}20/11/20201123131124554.gif"
+            },
+            {
+                "id": "dog_😮",
+                "url": "{img}20/12/{id}.jpg"
+            },
+            {
+                "id": "makima_thinking",
+                "url": "{img}20/12/{id}.jpg"
+            },
+            {
+                "id": "suya_smile",
+                "url": "{img}20/12/{id}.jpg"
+            },
+            {
+                "id": "雀实",
+                "url": "{img}20/12/{id}.jpg"
+            },
+            {
+                "id": "谢谢茄子",
+                "url": "{img}20/12/{id}.jpg"
+            },
+            {
+                "id": "cnm",
+                "url": "{img}20/12/{id}.jpg"
+            },
+            {
+                "id": "cock",
+                "url": "{img}20/12/{id}.gif"
+            },
+            {
+                "id": "cat_sad",
+                "url": "{img}20/12/{id}.gif"
             }
         ]
     },
@@ -212,21 +250,85 @@
             "这真步河里",
             "这贞德河里吗",
             "这补胎合理",
-            "这像画吗"
+            "这像画吗",
+            "这并非河里"
         ]
-    },{
-        "id":"pcr",
-        "name":"プリコネ！",
-        "p_url":"https://image.yukicat.net/202",
-        "faces":[
+    },
+    {
+        "id": "pcr",
+        "name": "プリコネ！",
+        "p_url": "https://image.yukicat.net/202",
+        "jsd": "https://cdn.jsdelivr.net/gh/YukiCat-Dev/yukicat.facepack/pic/pcr/",
+        "faces": [
             {
-                "id":"yls笑","url":"{p_url}0/11/20201123131110632.jpg"
-            },{
-                "id":"一切都会好起来的","url":"{p_url}0/11/20201123131116468.jpg"
-            },{
-                "id":"一切都不会好起来的","url":"{p_url}0/11/20201123131119358.jpg"
-            },{
-                "id":"栞星星","url":"{p_url}0/11/20201123131121714.jpg"
+                "id": "yls笑",
+                "url": "{p_url}0/11/20201123131110632.jpg"
+            },
+            {
+                "id": "一切都会好起来的",
+                "url": "{p_url}0/11/20201123131116468.jpg"
+            },
+            {
+                "id": "一切都不会好起来的",
+                "url": "{p_url}0/11/20201123131119358.jpg"
+            },
+            {
+                "id": "栞星星",
+                "url": "{p_url}0/11/20201123131121714.jpg"
+            },
+            {
+                "id": "tamaki_smile",
+                "url": "{jsd}{id}.jpg"
+            },
+            {
+                "id": "优衣说一",
+                "url": "{jsd}{id}.jpg"
+            },
+            {
+                "id": "云_好耶",
+                "url": "{jsd}{id}.png"
+            }
+        ]
+    },
+    {
+        "id": "ak",
+        "name": "明日方舟",
+        "p_url": "https://cdn.jsdelivr.net/gh/YukiCat-Dev/yukicat.facepack/pic/ak/",
+        "default": "{p_url}{id}.JPG",
+        "faces": [
+            "大哥哥冲呀",
+            "红喝可乐"
+        ]
+    },
+    {
+        "id": "fgo",
+        "name": "Fate/Grand Order",
+        "p_url": "https://cdn.jsdelivr.net/gh/YukiCat-Dev/yukicat.facepack/pic/fgo/",
+        "default": "{p_url}{id}.gif",
+        "faces": [
+            "attila_moved"
+        ]
+    },
+    {
+        "id": "kaguya",
+        "name": "輝夜様は告らせたい",
+        "p_url": "https://cdn.jsdelivr.net/gh/zhaoolee/ChineseBQB/071辉夜大小姐🎀BQB/辉夜大小姐想让我告白000",
+        "faces": [
+            {
+                "id": "藤原敲打",
+                "url": "{p_url}20-卷报纸打人.gif"
+            },
+            {
+                "id": "抖",
+                "url": "{p_url}07-惊慌.gif"
+            },
+            {
+                "id": "kimo",
+                "url": "{p_url}18-你好恶心喔.jpg"
+            },
+            {
+                "id": "naruhodo",
+                "url": "{p_url}19-原来如此-侦探.jpg"
             }
         ]
     },
@@ -281,29 +383,6 @@
             {
                 "id": "3",
                 "url": "{p_url}奇妙猫00004-口水猫.jpg"
-            }
-        ]
-    },
-    {
-        "id": "kaguya",
-        "name": "輝夜様は告らせたい",
-        "p_url": "https://cdn.jsdelivr.net/gh/zhaoolee/ChineseBQB/071辉夜大小姐🎀BQB/辉夜大小姐想让我告白000",
-        "faces": [
-            {
-                "id": "藤原敲打",
-                "url": "{p_url}20-卷报纸打人.gif"
-            },
-            {
-                "id": "抖",
-                "url": "{p_url}07-惊慌.gif"
-            },
-            {
-                "id": "kimo",
-                "url": "{p_url}18-你好恶心喔.jpg"
-            },
-            {
-                "id": "naruhodo",
-                "url": "{p_url}19-原来如此-侦探.jpg"
             }
         ]
     }
