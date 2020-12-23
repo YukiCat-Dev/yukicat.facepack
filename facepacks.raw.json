@@ -333,7 +333,7 @@
     {
         "id": "bilibili",
         "name": "bilibili",
-        "p_url": "https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository/vision/smilies/bilipng/emoji_{id}.png",
+        "default": "https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository/vision/smilies/bilipng/emoji_{id}.png",
         "faces": [
             "baiyan",
             "bishi",
