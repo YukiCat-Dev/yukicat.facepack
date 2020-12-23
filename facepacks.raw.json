@@ -109,7 +109,9 @@
                 "id": "dab",
                 "url": "{nohd}"
             },
-            "poke","imposter",{
+            "poke",
+            "imposter",
+            {
                 "id": "unicorn",
                 "url": "{nohd}"
             }
@@ -119,7 +121,7 @@
         "id": "yukicat",
         "name": "站上表情包",
         "p_url": "https://www.yukicat.net/wp-content/uploads/",
-        "img":"https://image.yukicat.net/20",
+        "img": "https://image.yukicat.net/20",
         "faces": [
             {
                 "id": "e_wu",
@@ -326,6 +328,39 @@
                 "id": "naruhodo",
                 "url": "{p_url}19-原来如此-侦探.jpg"
             }
+        ]
+    },
+    {
+        "id": "bilibili",
+        "name": "bilibili",
+        "p_url": "https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository/vision/smilies/bilipng/emoji_{id}.png",
+        "faces": [
+            "baiyan",
+            "bishi",
+            "bizui",
+            "chan",
+            "dai",
+            "daku",
+            "dalao",
+            "dalian",
+            "dianzan",
+            "doge",
+            "facai",
+            "fanu",
+            "ganga",
+            "guilian",
+            "guzhang",
+            "haixiu",
+            "heirenwenhao",
+            "huaixiao",
+            "jingxia",
+            "keai",
+            "koubizi",
+            "kun",
+            "lengmo",
+            "liubixue",
+            "liuhan",
+            "miantian"
         ]
     },
     {
