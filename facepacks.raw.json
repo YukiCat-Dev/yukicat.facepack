@@ -18,6 +18,7 @@
             },
             "bunny",
             "christmas",
+            "redenvelope",
             "confused",
             "ceiling",
             "disco",
@@ -45,6 +46,7 @@
                 "url": "{p_url}hd/{id}arrot.gif"
             },
             "github",
+            "mergeconflict",
             {
                 "id": "stub",
                 "url": "https://cdn.jsdelivr.net/gh/jmhobbs/cultofthepartyparrot.com/guests/hd/stubparrot.gif"
@@ -110,11 +112,14 @@
                 "url": "{nohd}"
             },
             "poke",
+            "thankyou",
+            "kindasus",
             "imposter",
             {
                 "id": "unicorn",
                 "url": "{nohd}"
-            }
+            },
+            "sneezy"
         ]
     },
     {
@@ -230,15 +235,30 @@
             {
                 "id": "cat_sad",
                 "url": "{img}20/12/{id}.gif"
-            },{
-                "id":"派蒙&荧_惊讶",
-                "url":"{img}21/03/20210317172459999.gif"
-            },{
-                "id":"嘉然_运动",
-                "url":"{img}21/03/20210317172707504.gif"
-            },{
-                "id":"黄毛",
-                "url":"{img}21/04/{id}.gif"
+            },
+            {
+                "id": "派蒙&荧_惊讶",
+                "url": "{img}21/03/20210317172459999.gif"
+            },
+            {
+                "id": "嘉然_运动",
+                "url": "{img}21/03/20210317172707504.gif"
+            },
+            {
+                "id": "嘉然_冲拳",
+                "url": "https://cdn.jsdelivr.net/gh/YukiCat-Dev/yukicat.facepack/pic/local/{id}.GIF"
+            },
+            {
+                "id": "嘉然_挠头",
+                "url": "https://cdn.jsdelivr.net/gh/YukiCat-Dev/yukicat.facepack/pic/local/{id}.GIF"
+            },
+            {
+                "id": "ウマ娘_失敗",
+                "url": "https://cdn.jsdelivr.net/gh/YukiCat-Dev/yukicat.facepack/pic/local/{id}.JPG"
+            },
+            {
+                "id": "黄毛",
+                "url": "{img}21/04/{id}.gif"
             }
         ]
     },
@@ -423,6 +443,26 @@
             {
                 "id": "3",
                 "url": "{p_url}奇妙猫00004-口水猫.jpg"
+            }
+        ]
+    },
+    {
+        "id": "cat",
+        "name": "猫",
+        "faces": [
+            {
+                "id": "いい加減にしろよ",
+                "url": "https://cdn.jsdelivr.net/gh/YukiCat-Dev/yukicat.facepack/pic/cat/いい加減にしろよ.JPG"
+            }
+        ]
+    },
+    {
+        "id": "emoji",
+        "name": "Emoji",
+        "faces": [
+            {
+                "id": "$19.94😂",
+                "url": "https://cdn.jsdelivr.net/gh/YukiCat-Dev/yukicat.facepack/pic/emoji/$19.94.jpg"
             }
         ]
     }
